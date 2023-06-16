@@ -1,11 +1,9 @@
-#include <lvgl/src/extra/libs/fsdrv/lv_fsdrv.h>
 #include <signal.h>
 #include <lvgl/lvgl.h>
-#include <src/widgets/lv_img.h>
 #include <unistd.h>
 #include <SDL2/SDL.h>
 #include "hal/app_hal.h"
-#include "ui/ui_main.h";
+#include "ui/ui_main.h"
 
 static bool quit = false;
 

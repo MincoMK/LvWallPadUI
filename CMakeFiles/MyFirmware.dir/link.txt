@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MyFirmware.dir/src/hal/app_hal.cpp.o CMakeFiles/MyFirmware.dir/src/main.cpp.o CMakeFiles/MyFirmware.dir/src/ui/pages/main_page.cpp.o CMakeFiles/MyFirmware.dir/src/ui/ui_main.cpp.o -o MyFirmware  lib/liblv_drivers.a /usr/lib/x86_64-linux-gnu/libSDL2.so lib/liblvgl.a -lwayland-client -lwayland-cursor -lxkbcommon 

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 project(MyProject LANGUAGES C CXX)
 
+include_directories(src)
 file(GLOB_RECURSE SOURCES
 	"src/*.c"
 	"src/*.cpp"
