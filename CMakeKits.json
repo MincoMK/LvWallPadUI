@@ -1,0 +1,13 @@
+[
+  {
+    "name": "GCC",
+    "generator":"Ninja",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++",
+      "Fortran": "/usr/bin/gfortran"
+    },
+    "linker": "/usr/bin/ld",
+    "toochainFile": "xxx"
+  }
+]

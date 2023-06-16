@@ -1,0 +1,6 @@
+#!/bin/bash
+cmake -S . -B build -G "Ninja"
+cd build
+export NINJA_STATUS="[%f/%t] "
+ninja
+cd ..
